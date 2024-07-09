@@ -1,0 +1,61 @@
+body{
+    background-color: #3e3636;
+    text-align: center;
+}
+
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+#giphy-form{
+    display: inline;
+    height: 100px;
+}
+
+
+#input{
+    height: 35px;
+    border-radius: 15px;
+    border: 2px solid black;
+    color: #3e3636;
+    outline: none;
+}
+
+
+#input::placeholder{
+    color: #3e3636;
+}
+
+
+#search-giphy{
+    height: 35px;
+    border-radius: 35px;
+    border: 2px solid black;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}   
+
+
+#remove-giphy{
+    height: 35px;
+    border-radius: 35px;
+    border: 2px solid black;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.giph-container{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+
+}
